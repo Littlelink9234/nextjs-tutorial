@@ -6,7 +6,6 @@ import { Suspense } from "react";
 import Table from "@/app/ui/invoices/table";
 import { fetchInvoicesPages } from "@/app/lib/data";
 import { lusitana } from "@/app/ui/fonts";
-import { useSearchParams } from "next/navigation";
 
 export default async function Page({
   searchParams,
